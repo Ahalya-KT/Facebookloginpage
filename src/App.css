@@ -1,41 +1,90 @@
 
 *{
-  background-color: rgb(219,219,246);
-}
-.container{
-  display: flex;
- margin-top: 150px;
- align-items: center;
- justify-content: space-evenly;
-  
+  padding: 0px;
+  margin: 0px;
 }
 
-.main-heading {
+.container{
+  display: flex;
+ padding: 100px;
+ align-items: center;
+ justify-content: space-evenly;
+
+ 
+  
+}
+.app{
+  background-color: rgb(219,219,246);
+  height: 100vh;
+}
+
+/* .main-heading {
   color: blue;
   font-size: 50px;
   font-weight: 600;
+  padding-left: 60px;
+} */
+
+.headings{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 70px;
+}
+.mainheading{
+  width: 50%;
 }
 .about-fb{
   font-size: 25px;
-  width: 50%;
+  width: 70%;
+  padding-left: 30px; 
 }
 
 .text-field{
   margin-bottom: 25px;
+  
 }
 
 .input-form{
-  background-color: aliceblue;
+  background-color:#fff;
   /* height: 50vh; */
   padding: 40px;
+  margin-right: 70px;
+
 }
 
 .outlined-basic{
   width: 300px;
- 
 }
 
-.btn{
-  width: 53%;
-
+.login-button{
+  width: 100%;
+  height: 7vh;
+  border: none;
+  background-color: #1877f2;
+  color: black;
+  border-radius: 10px;
+}
+.forgot-msg{
+  text-align: center;
+  padding-top: 7px;
+  color: #1877f2;;
+}
+.create-acctn{
+  width: 100%;
+  height: 7vh;
+  border: none;
+  background-color: #42b72a;
+  color: #fff;
+  border-radius: 10px;
+ 
+}
+.new-account{
+  margin-top: 20px;
+  padding-left: 60px;
+  width: 60%;
+ 
+}
+.sectionlast{
+  margin-top: 20px;
+  padding-left: 60px;
 }
